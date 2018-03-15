@@ -1,0 +1,7 @@
+body {
+    background-color: red;
+}
+
+.header {
+    composes: yellow from './text-color.css';
+}
